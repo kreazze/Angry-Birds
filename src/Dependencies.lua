@@ -27,26 +27,26 @@ require 'src/states/StartState'
 
 gTextures = {
     -- backgrounds
-    ['blue-desert'] = love.graphics.newImage('graphics/blue_desert.png'),
-    ['blue-grass'] = love.graphics.newImage('graphics/blue_grass.png'),
-    ['blue-land'] = love.graphics.newImage('graphics/blue_land.png'),
-    ['blue-shroom'] = love.graphics.newImage('graphics/blue_shroom.png'),
-    ['colored-land'] = love.graphics.newImage('graphics/colored_land.png'),
-    ['colored-desert'] = love.graphics.newImage('graphics/colored_desert.png'),
-    ['colored-grass'] = love.graphics.newImage('graphics/colored_grass.png'),
-    ['colored-shroom'] = love.graphics.newImage('graphics/colored_shroom.png'),
+    ['blue-desert'] = love.graphics.newImage('Assets/graphics/blue_desert.png'),
+    ['blue-grass'] = love.graphics.newImage('Assets/graphics/blue_grass.png'),
+    ['blue-land'] = love.graphics.newImage('Assets/graphics/blue_land.png'),
+    ['blue-shroom'] = love.graphics.newImage('Assets/graphics/blue_shroom.png'),
+    ['colored-land'] = love.graphics.newImage('Assets/graphics/colored_land.png'),
+    ['colored-desert'] = love.graphics.newImage('Assets/graphics/colored_desert.png'),
+    ['colored-grass'] = love.graphics.newImage('Assets/graphics/colored_grass.png'),
+    ['colored-shroom'] = love.graphics.newImage('Assets/graphics/colored_shroom.png'),
 
     -- aliens
-    ['aliens'] = love.graphics.newImage('graphics/aliens.png'),
+    ['aliens'] = love.graphics.newImage('Assets/graphics/aliens.png'),
 
     -- tiles
-    ['tiles'] = love.graphics.newImage('graphics/tiles.png'),
+    ['tiles'] = love.graphics.newImage('Assets/graphics/tiles.png'),
 
     -- wooden obstacles
-    ['wood'] = love.graphics.newImage('graphics/wood.png'),
+    ['wood'] = love.graphics.newImage('Assets/graphics/wood.png'),
 
     -- arrow for trajectory
-    ['arrow'] = love.graphics.newImage('graphics/arrow.png')
+    ['arrow'] = love.graphics.newImage('Assets/graphics/arrow.png')
 }
 
 gFrames = {
@@ -62,22 +62,22 @@ gFrames = {
 }
 
 gSounds = {
-    ['break1'] = love.audio.newSource('sounds/break1.wav', 'static'),
-    ['break2'] = love.audio.newSource('sounds/break2.wav', 'static'),
-    ['break3'] = love.audio.newSource('sounds/break3.mp3', 'static'),
-    ['break4'] = love.audio.newSource('sounds/break4.wav', 'static'),
-    ['break5'] = love.audio.newSource('sounds/break5.wav', 'static'),
-    ['bounce'] = love.audio.newSource('sounds/bounce.wav', 'static'),
-    ['kill'] = love.audio.newSource('sounds/kill.wav', 'static'),
-
-    ['music'] = love.audio.newSource('sounds/music.wav', 'static')
+    ['break1'] = love.audio.newSource('Assets/sounds/break1.wav', 'static'),
+    ['break2'] = love.audio.newSource('Assets/sounds/break2.wav', 'static'),
+    ['break3'] = love.audio.newSource('Assets/sounds/break3.mp3', 'static'),
+    ['break4'] = love.audio.newSource('Assets/sounds/break4.wav', 'static'),
+    ['break5'] = love.audio.newSource('Assets/sounds/break5.wav', 'static'),
+    ['bounce'] = love.audio.newSource('Assets/sounds/bounce.wav', 'static'),
+    ['kill'] = love.audio.newSource('Assets/sounds/kill.wav', 'static'),
+    
+    ['music'] = love.audio.newSource('Assets/sounds/music.wav', 'static')
 }
 
 gFonts = {
-    ['small'] = love.graphics.newFont('fonts/font.ttf', 8),
-    ['medium'] = love.graphics.newFont('fonts/font.ttf', 16),
-    ['large'] = love.graphics.newFont('fonts/font.ttf', 32),
-    ['huge'] = love.graphics.newFont('fonts/font.ttf', 64)
+    ['small'] = love.graphics.newFont('Assets/fonts/font.ttf', 8),
+    ['medium'] = love.graphics.newFont('Assets/fonts/font.ttf', 16),
+    ['large'] = love.graphics.newFont('Assets/fonts/font.ttf', 32),
+    ['huge'] = love.graphics.newFont('Assets/fonts/font.ttf', 64)
 }
 
 -- tweak circular alien quad
